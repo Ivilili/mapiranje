@@ -1,0 +1,150 @@
+#top-menu ul li .md-show {
+	display: inline-block !important;
+	padding: 16px, 0;
+}
+
+#top-menu .btn {
+	font-size: .8em;
+	line-height: 21px;
+}
+
+#sidebar {
+	top: 0;
+	left: auto;
+	right: 0;
+	width: 400px;
+	bottom: 0;
+}
+
+#sidebar {
+	position: absolute;
+	background: #fff;
+	display: block;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	font-size: .8em;
+}
+
+#sidebar-list {
+	margin-top: 41px;
+	background: white;
+	border-color: #ddd;
+}
+
+#sidebar-list ul {
+	display: block;
+}
+
+.btn {
+	font-weight: 600;
+	opacity: .6;
+}
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1.125rem;
+	padding: .5rem 1rem;
+	margin: 0;
+	height: auto;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	color: inherit;
+	background-color: transparent;
+}
+
+.inline-block {
+	display: inline-block !important;
+}
+
+.z2 {
+	z-index: 2;
+}
+
+.p2 {
+	padding: 1rem;
+}
+
+.pl2 {
+	padding-left: 1rem;
+}
+.bg-white {
+	background-color: #fff;
+}
+.lightgray {
+	color: #999;
+}
+
+.border-left {
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+.border-bottom {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.top-0 {
+	top: 0;
+}
+
+.right-0 {
+	right: 0;
+}
+
+.bottom-0 {
+	bottom: 0;
+}
+
+.left-0 {
+	left: 0;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.block {
+	display: block;
+}
+.m0 {
+	margin: 0;
+}
+.list-reset {
+	list-style: none;
+	padding-left: 0;
+}
+.my0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.mx3 {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.darkgray {
+	color: #212121;
+}
+
+/*  styling */
+.card {
+	font-family: 'Libre Baskerville', serif;
+	padding: 27px 19px;
+}
+
+.card_title {
+	color: #227de6;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
