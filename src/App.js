@@ -9,7 +9,13 @@ mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const App = () => {
 	const [ data ] = useState(myData.features);
+	const [ isOpened, setIsOpened ] = useState(false);
+
 	const mapContainerRef = useRef(null);
+
+	function toggle() {
+		setIsOpened((wasOpened) => !wasOpened);
+	}
 
 	// initialize map when component mounts
 	useEffect(() => {
@@ -52,7 +58,7 @@ const App = () => {
 	return (
 		<div className="App">
 			<div className="map-container" ref={mapContainerRef} />
-			<Sidebar data={data} />
+			<Sidebar data={data} isOpened={isOpened} toggle={toggle} />
 		</div>
 	);
 };

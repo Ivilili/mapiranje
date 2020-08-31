@@ -139,6 +139,8 @@
 .card {
 	font-family: 'Libre Baskerville', serif;
 	padding: 27px 19px;
+	cursor: pointer;
+	position: relative;
 }
 
 .card_title {

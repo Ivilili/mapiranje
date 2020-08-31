@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Card from './Card';
 import '../styles/Sidebar.css';
 
 function Sidebar(props) {
@@ -18,12 +19,12 @@ function Sidebar(props) {
 					<div id="list-view" className="absolute top-0 bottom-0 left-0 right-0 overflow-auto">
 						<ul id="heritage-list" className="m0 list-reset border-top">
 							{props.data.map((point, index) => {
-								console.log(point.properties);
 								return (
-									<li id="ninkn1" className="card border-bottom relative" key={index}>
+									<li id="ninkn1" className="card" key={index}>
 										<p className="card_title my0 mx3"> {point.properties['građevina']} </p>
 										<p className="my0 mx3 darkgray"> {point.properties.adresa} </p>
 										<p className="my0 mx3 darkgray"> {point.properties.Mjesto} </p>
+										<Card props={props} isOpened={props.isOpened} />
 									</li>
 								);
 							})}
