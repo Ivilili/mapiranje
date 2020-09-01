@@ -2,8 +2,9 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 //import * as points from './data/features.geojson';
 //import * as myData from './data/features.json';
-import Sidebar from './components/Sidebar';
+//import Sidebar from './components/Sidebar';
 import './styles/App.css';
+import './styles/Sidebar.css';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
@@ -341,7 +342,7 @@ const App = () => {
 			/** Check if there is already a popup on the map and if so, remove it */
 			if (popUps[0]) popUps[0].remove();
 
-			var popup = new mapboxgl.Popup({ closeOnClick: false })
+			new mapboxgl.Popup({ closeOnClick: false })
 				.setLngLat(currentFeature.geometry.coordinates)
 				.setHTML(
 					'<h3>' +
