@@ -333,7 +333,7 @@ const App = () => {
 		const flyToStore = (currentFeature) => {
 			map.flyTo({
 				center: currentFeature.geometry.coordinates,
-				zoom: 15
+				zoom: 16
 			});
 		};
 
@@ -368,7 +368,7 @@ const App = () => {
 				source: 'points',
 				type: 'symbol',
 				layout: {
-					'icon-image': 'attraction-15',
+					'icon-image': 'attraction-11',
 					'icon-allow-overlap': true
 				}
 			});
