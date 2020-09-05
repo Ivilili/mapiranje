@@ -241,3 +241,19 @@ a {
 .listings .card.active {
 	background-color: #f8f8f8;
 }
+
+/*  styling */
+.card {
+	font-family: 'Libre Baskerville', serif;
+	padding: 27px 19px;
+	cursor: pointer;
+	position: relative;
+}
+
+.card_title {
+	color: #227de6;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
