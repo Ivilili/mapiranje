@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
-import '../styles/Card.css';
 
-function Card({ isOpened }) {
+function Card() {
 	return (
 		<Fragment>
 			<div id="card" className="more_info">
